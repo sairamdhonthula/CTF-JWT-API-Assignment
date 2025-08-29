@@ -1,8 +1,21 @@
+# 🔐 CTF JWT & Secure API Assignment  
 
-DGPL CTF Assignment - Deliverables (generated)
-Files included:
-- jwt_attack_demo.py      : PoC scripts demonstrating JWT attacks (alg=none, weak secret, key confusion)
-- secure_api.py           : Flask-based secure API with /register, /login, /profile
-- jwt_research_report.md  : 1-2 page research writeup on JWT vulnerabilities and mitigations
-- README_API.md           : Setup and testing instructions for the API (curl examples)
-- README.md               : This top-level README
+![GitHub repo size](https://img.shields.io/github/repo-size/sairamdhonthula/CTF-JWT-API-Assignment)
+![GitHub last commit](https://img.shields.io/github/last-commit/sairamdhonthula/CTF-JWT-API-Assignment)
+![GitHub language count](https://img.shields.io/github/languages/count/sairamdhonthula/CTF-JWT-API-Assignment)
+![GitHub top language](https://img.shields.io/github/languages/top/sairamdhonthula/CTF-JWT-API-Assignment)
+
+---
+
+## 📖 Overview
+This repository contains my **Capture the Flag (CTF) Assignment** on **JWT Security Research** and **Secure API Implementation**.  
+It demonstrates **common JWT vulnerabilities** through a PoC (Proof of Concept) and provides a **secure Flask-based API** as a mitigation example.  
+
+The project has two main parts:
+1. **JWT Attack Demo** → PoC for alg=none, weak secret brute-force, and RS256→HS256 key confusion.  
+2. **Secure API** → Flask API implementing secure user registration, login with JWT, and profile access.  
+
+---
+
+## 🗂 Repository Structure
+
